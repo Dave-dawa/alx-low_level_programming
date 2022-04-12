@@ -1,17 +1,17 @@
-#include "holberton.h"
+#include "alx.h"
 /**
- * main - Print "Holberton" followed by a new line.
+ * main - Print "_putchar" followed by a new line.
  * Description: You are not allowed to include standard libraries.
  * Return: 0
  */
 int main(void)
 {
-	char holberton[] = "Holberton";
+	char alx[] = "_putchar";
 	int i = 0;
 
-	while (holberton[i] != '\0')
+	while (alx[i] != '\0')
 	{
-		_putchar(holberton[i]);
+		_putchar(alx[i]);
 		i++;
 	}
 	_putchar('\n');
